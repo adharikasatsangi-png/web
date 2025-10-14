@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" src="style.css">
     <script src="script.js"></script>
+    <base href="https://nl.printerest.com/" target="_blank">
 </head>
 <body>
     <h1>Indian Food</h1>
@@ -19,7 +20,7 @@
         </tr>
         <tr>
             <td>
-                <img src="/web/Blog/Indian-Food/Pictures/jalebi-pic.png" height="100px" width="100px">
+                <img src="pin/870250328009143199/" height="100px" width="100px">
             </td>
             <td>Jalebi</td>
         </tr>
@@ -40,7 +41,27 @@
     <!--For this, we will fisrt look at how to get an image in our html doc by the use of our tag - <img>-->
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB0Inicacs-soggw6Zjxkv-r9_SkH9wVt6XQ&s" alt="Image of jalebis and gulab jamun" width="100" height="100" usemap="#Indian Dish labels">
     <map name="Indian Dish labels">
-        <area shape="rect" coords="0,0,100,50" alt="Gulab Jamum" href="https://en.wikipedia.org/wiki/Gulab_jamun">
+        <area shape="rect" coords="0,50,100,100" alt="Gulab Jamum" href="https://en.wikipedia.org/wiki/Gulab_jamun">
+        <area shape="rect" coords="0,0,100,50" alt="Jalebi" href="https://en.wikipedia.org/wiki/Jalebi">
     </map> 
+    <!--Now, we will nook at the <article> tag which tells us how to have independent, self-contained content-->
+    <article>
+        <h2>What is the best Indian sweet-dish?</h2>
+        <p>I think the best indian sweet-dish would definately be jalebi as it is the perfect balance between crispiness and sweetness and can be enojoyed both cold and hot.</p>
+    </article>
+    <!--Now, we will look at <aside> tag to look at how we can place information that is not directly related to our content but indirectly related-->
+    <aside>
+        <p>Jalebi tastes best hot when it is eaten with Rabri.</p>
+    </aside>
+    <!--Here, we would look at how to add audio files into html-->
+    <h3>The statisfing sound of eating a jalebi</h3>
+    <p>Do you ever wonder what is the sound of crunching down a crispy hot jalebi!<br/>Here is the sound for you</p>
+    <sound controls>
+        <source src="jalebi.mp3" type="audio/mpeg">
+        Sorry, your browser can not even support this audio....
+    </sound>
+    <!--Now, we would look at the <b> tag which basically just bolds things.-->
+    <p>So, as you could have seen that I <b>LOVE</b> eating hot crispy jalebis.</p>
+    <!--Now, we would be looking at <base> tag which basically shows us how we can set a default url and default target for all links in a page-->
 </body>
 </html>
