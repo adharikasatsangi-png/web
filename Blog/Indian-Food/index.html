@@ -7,6 +7,45 @@
     <link rel="stylesheet" src="style.css">
     <script src="script.js"></script>
     <!--<base href="https://i.pinimg.com/" target="_blank">-->
+    <style>
+        body {
+            background-image: url("https://www.shutterstock.com/image-photo/indian-butter-chicken-curry-basmati-260nw-1920183374.jpg");
+        }
+        .button {
+            border: 2px solid #04AA6D;
+            color: slateblue;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+            text-decoration-color: seashell;
+            display: inline-block;     
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;   }
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #d8eded;
+        }
+        .button1:hover {
+            background-image: url("https://swagathfoods.com.au/cdn/shop/articles/Screenshot_2023-10-09_at_2.15.42_AM.png?v=1758518839&width=1000");
+            color: white;
+            font-weight: 700;
+
+        }
+        .button2 {
+            background: white  ;
+            color: black; 
+            border: 2px solid #d8eded;
+        }
+        .button2:hover {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGI8yR5XR90z2em1daJJn1km3kgDwNY_1Pug&s") ;
+            color: white;
+            font-weight: 700;
+        }
+    </style>
 </head>
 <body>
     <h1>Indian Food</h1>
@@ -63,5 +102,19 @@
     <!--Now, we would look at the <b> tag which basically just bolds things.-->
     <p>So, as you could have seen that I <b>LOVE</b> eating hot crispy jalebis.</p>
     <!--Now, we would be looking at <base> tag which basically shows us how we can set a default url and default target for all links in a page-->
+    <!--Now, we will look at the <bdi> tag which corrrected displayes regardless of the surrounding text direction so its most useful when we are using multilanguage text-->
+    <p> My fav indian sweet dish is <bdi>जलेबी</bdi> which is pronounced as jalebi.</p>
+    <!--Now, we will look at the <bdo> tag which is used to override the current text direction-->
+    <p>So not like this: <bdo dir="rtl">जलेबी</bdo> but liike this: <bdi>जलेबी</bdi></p>
+    <!--Now we will look at <blockquote> tag which specifis a section which is quoted from another source-->
+    <blockquote cite="https://www.business-standard.com/article/news-ians/indian-sweet-jalebi-among-world-s-most-fattening-foods-114040901030_1.html">
+        Jalebi, a popular Indian sweet, has been listed among the world's most fattening foods. According to a study published in the journal "Appetite," jalebi contains high levels of sugar and fat, making it a calorie-dense treat. The study highlights the need for moderation when consuming such sweets to maintain a healthy diet.
+    </blockquote>
+    <!--Now, we will look at <body> tag but we have been using it from the start so maybe we can do somthing else in it lie adding a coulr in itś background-->
+    <!--Now, we will look at <br> tag which is just line break so easy to use-->
+    <br>
+    <!--Now we will look at <button> tag with is a very interesting tag tbh-->
+    <button class="button button1">Jalebi</button>
+    <button class="button button2">Gulab Jamun</button>
 </body>
 </html>
