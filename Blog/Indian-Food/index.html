@@ -38,7 +38,6 @@
             background-image: url("https://swagathfoods.com.au/cdn/shop/articles/Screenshot_2023-10-09_at_2.15.42_AM.png?v=1758518839&width=1000");
             color: white;
             font-weight: 700;
-
         }
         .button2 {
             background: white;
@@ -50,6 +49,14 @@
             color: white;
             font-weight: 700;
         }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: white;
+            color: black;
+            padding: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -59,6 +66,9 @@
     <p>Search down to find more about Indian foods:</p><br><a href="https://www.google.com/"> google search</a>
     <table style="border-spacing: 20px;">
         <caption>Different types of Indian food</caption>
+        <colgroup>
+            <col style="background-color:lightblue">
+        </colgroup>
         <tr>
             <th>Pictures of Indian food</th>
             <th>Name of Indian Food</th>
@@ -125,7 +135,25 @@
     <!--Now, we will look at <canvas> tag -->
     <!--Next, we will look at the <caption> which we have alraedy used i think when we were forming the table-->
     <!--NO, we didn't so we will makke some changes and use it -->
-    <!--Next, we will learn about the <cite> tag-->
-    
+    <!--Next, we will learn about the <cite> tag which is usually used to define a title of something-->
+    <p>In fact, though you might not believe it but there are books like <cite>The little baby who wanted Jalebi</cite> which arre base on linking indian food items to real life experiences.</p>
+    <!--Now, we will look at <code> tag which i think is raelly easy as it just deals with defines elemnts which are used in coding so taht their font is differnt-->
+    <p>You know? The button that i have added above are made using the <code>button</code>tag in html....Cool, right?</p>
+    <!--Now, we will look at the <col> tag which is used to specify column properties of all the columns in a <colgroup> element-->
+    <!--Now, we will look at <colgroup> which specifies a group pf one or more columns in a table for foramtting-->
+    <!--Now, we will look at the <data> tag is used to offer a machine-readable translation of a given data-->
+    <p>So, I love eating <data value="5678">Jalebi</data> and <data value="5679">Gulab Jamun</data></p>
+    <!--Now, we will look at the <datalist> tag which is used to give a  list of predefined option for the <input> element-->
+    <form action="/action_page.php">
+        <label for="indian-sweet">Choose your fav indian sweet:</label>
+        <input list="sweets" id="indian-sweet" name="indian-sweet">
+        <datalist id="sweets">
+            <option value="Jalebi">
+            <option value="Gulab Jamun">
+            <option value="Rasgulla">
+            <option value="Barfi">
+            <option value="Ladoo">
+        </datalist>
+        <input type="submit">        
 </body>
 </html>
