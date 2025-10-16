@@ -1,11 +1,11 @@
-        body {
-            background-image: url("https://www.shutterstock.com/image-photo/indian-butter-chicken-curry-basmati-260nw-1920183374.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            background-size: cover;
-            color: white;
-        }
+body {
+    background-image: url("https://www.shutterstock.com/image-photo/indian-butter-chicken-curry-basmati-260nw-1920183374.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
         .button {
             border: 2px solid #04AA6D;
             color: slateblue;
