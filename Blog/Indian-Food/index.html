@@ -130,5 +130,10 @@
     <input type="number" id="total_marks" name="total_marks"><br><br>
     <label for="total_exams">Total number of exams in the whole term:</label>
     <input type="number" id="total_exams" name="total_exams"><br><br>
+    <label for="total_exams_taken">Total number of exams already taken:</label>
+    <input type="number" id="total_exams_taken" name="total_exams_taken" min="1"><br><br>
+    <button onclick="generate_exam_boxes">Submit</button>
+    <div id="examContainer"></div>
+
 </body>
 </html>
