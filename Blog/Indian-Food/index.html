@@ -153,6 +153,7 @@ function generateExamBoxes() {
             <div id="inputs${i}"></div>
         `;
         container.appendChild(box);
+        box.classList.add("exam-box");
 
         document.getElementById(`choice${i}`).addEventListener("change", function() {
             const inputDiv = document.getElementById(`inputs${i}`);
